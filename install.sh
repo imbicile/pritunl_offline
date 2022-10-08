@@ -8,6 +8,6 @@ sudo systemctl enable mongod pritunl
 sudo systemctl start mongod pritunl
 sudo dkms autoinstall
 sudo dkms status
-ss -tulpan | grep pritunl
+sudo ss -tulpan | grep pritunl
 sleep 5
 sudo pritunl setup-key
